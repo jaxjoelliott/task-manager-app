@@ -5,7 +5,7 @@ A full-stack productivity app for managing tasks with a Kanban-style workflow, p
 ![Task Manager Screenshot](tm1.PNG)
 
 ## Live Demo
-🔗 Coming soon
+WIP
 
 ## Tech Stack
 
