@@ -1,36 +1,79 @@
-# Task Manager Web App
+# Task Manager App
 
-Full-stack task manager built with React, Node.js/Express, and MongoDB Atlas.
+A full-stack productivity app for managing tasks with a Kanban-style workflow, priority levels, and visual progress tracking.
+
+![Task Manager Screenshot](tm1.PNG)
+
+## Live Demo
+🔗 Coming soon
+
+## Tech Stack
+
+**Frontend:** React, Recharts, Axios  
+**Backend:** Node.js, Express  
+**Database:** MongoDB Atlas  
+**Auth:** JWT, bcrypt  
 
 ## Features
-- User registration and login (JWT authentication)
-- Create, update, delete tasks
-- Due dates and priority levels
+
+- User registration and login with JWT authentication
+- Create, update, and delete tasks
+- Set priority levels (Low, Medium, High)
 - Track task status (To Do, In Progress, Done)
-- Visual progress chart of task statuses
+- Kanban-style status updates
+- Pie chart visualization of task progress
+- Responsive layout
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js and npm installed
-- MongoDB Atlas account and connection string
+- Node.js
+- MongoDB Atlas account
 
 ### Backend Setup
-
 ```bash
 cd backend
 npm install
 cp .env.example .env
-# Edit .env and set MONGO_URI and JWT_SECRET
+# Add your MONGO_URI and JWT_SECRET to .env
 npm run dev
 ```
 
 ### Frontend Setup
-
 ```bash
 cd frontend
 npm install
 npm start
 ```
 
-By default, the frontend expects the backend at `http://localhost:5000`.
+Frontend runs on http://localhost:3000  
+Backend runs on http://localhost:5000
+
+## Project Structure
+```
+task-manager-app/
+├── backend/
+│   ├── config/        # Database connection
+│   ├── controllers/   # Route logic
+│   ├── middleware/    # JWT auth middleware
+│   ├── models/        # Mongoose schemas
+│   └── routes/        # API endpoints
+└── frontend/
+    └── src/
+        ├── components/ # React components
+        └── styles/     # CSS
+```
+
+## API Endpoints
+
+| Method | Endpoint | Description | Auth |
+|--------|----------|-------------|------|
+| POST | /api/auth/register | Register user | No |
+| POST | /api/auth/login | Login user | No |
+| GET | /api/tasks | Get all tasks | Yes |
+| POST | /api/tasks | Create task | Yes |
+| PUT | /api/tasks/:id | Update task | Yes |
+| DELETE | /api/tasks/:id | Delete task | Yes |
+
+## Author
+Jackson Elliott — CS Senior, Palm Beach Atlantic University
