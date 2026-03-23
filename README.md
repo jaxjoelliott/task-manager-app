@@ -5,7 +5,7 @@ A full-stack productivity app for managing tasks with a Kanban-style workflow, p
 ![Task Manager Screenshot](tm3.PNG)
 
 ## Live Demo
-WIP
+(https://task-manager-app-mauve-tau.vercel.app/)
 
 ## Tech Stack
 
