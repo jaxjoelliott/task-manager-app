@@ -2,7 +2,7 @@
 
 A full-stack productivity app for managing tasks with a Kanban-style workflow, priority levels, and visual progress tracking.
 
-![Task Manager Screenshot](tm1.PNG)
+![Task Manager Screenshot](tm3.PNG)
 
 ## Live Demo
 WIP
