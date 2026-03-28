@@ -1,6 +1,6 @@
 # Task Manager App
 
-A full-stack productivity app for managing tasks with a Kanban-style workflow, priority levels, and visual progress tracking.
+A full-stack productivity app for managing tasks with a Kanban-style workflow, priority levels, and visual progress tracking. Created for Senior Project at Palm Beach Atlantic University.
 
 ![Task Manager Screenshot](tm3.PNG)
 
