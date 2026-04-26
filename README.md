@@ -1,4 +1,4 @@
-# Task Manager App
+# Task Flow Management App
 
 A full-stack productivity app for managing tasks with a Kanban-style workflow, priority levels, and visual progress tracking. Created for Senior Project at Palm Beach Atlantic University.
 
